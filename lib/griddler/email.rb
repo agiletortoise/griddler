@@ -77,9 +77,9 @@ module Griddler
       @spam_report[:score] if @spam_report
     end
 
-    private
-
     attr_reader :params
+
+    private
 
     def config
       @config ||= Griddler.configuration
